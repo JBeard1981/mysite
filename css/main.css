@@ -151,7 +151,14 @@
 		-webkit-column-count:4;	/* Safari & Chrome */
 }
 	#alt {display:none;}
-
+	
+	/* ======================== Table ======================== */
+td {border:1px dotted;padding: 0.3em;}
+th {padding: 0.3em;font-family: 'Oleo Script Swash Caps', cursive; color: #900; font-weight:normal;}
+table {border-collapse: collapse; border:1px solid; width:100%; text-align:left; color:#fff;}
+/* ======================== Form ======================== */
+legend {padding: 0.3em;font-family: 'Oleo Script Swash Caps', cursive; color: #900;}
+form {color:#fff;}
 /* media queries ===================================================================================== */
 
 /* ========================Portrait tablet - standard devices======================== */
