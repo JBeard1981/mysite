@@ -9,7 +9,7 @@ body {
 /* div {background: #4d0e00;} */
 
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   float:left;
   padding:5px;
@@ -19,9 +19,25 @@ a:hover {
   text-decoration: underline overline;
 }
 
+#head {
+  background-image: url(../images/hf.png); overflow: hidden; height: 200px; box-shadow: 0px 10px 25px #000;
+}
+#head img {text-align:center; }
+
+#content {background: #fff; margin-top: 15px; margin-left:5px; margin-bottom:20px; padding: 5px; min-height: 400px; max-height; 450px; overflow:auto;}
+#content ul {margin:0px; padding-left:10px;}
+#content li {padding-bottom:5px;}
+#space {overflow:hidden;}
+
+#foot {
+  background-image: url(../images/fh.png); width:100%; padding:0px; margin:0; overflow: hidden; height: 50px; box-shadow: 0px -10px 25px #000;
+}
+#foot p {margin:10px; line-height:100%; color: #fff;
+}
 h1 {
   font-family: 'Cinzel Decorative', cursive;
   font-weight: 900;
+  line-height:200px;
   padding-top: 20px;
 }
 
