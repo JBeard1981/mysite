@@ -24,7 +24,7 @@ a:hover {
 }
 #head img {text-align:center; }
 
-#content {background: #fff; margin-top: 15px; margin-left:5px; margin-bottom:20px; padding: 5px; min-height: 400px; max-height; 450px; overflow:auto;}
+#content {background: #fff; margin-top: 15px; margin-left:5px; margin-bottom:20px; padding: 5px; height: 400px; overflow:auto;}
 #content ul {margin:0px; padding-left:10px;}
 #content li {padding-bottom:5px;}
 #space {overflow:hidden;}
