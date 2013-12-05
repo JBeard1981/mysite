@@ -1,15 +1,13 @@
 body {
-  background: #000;
-  color: #000;
+  background: #123;
+  color: #333;
   font-size: 11px;
   height: auto;
   padding-bottom: 20px;
 }
 
-/* div {background: #4d0e00;} */
-
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   float:left;
   padding:5px;
@@ -18,62 +16,48 @@ a {
 a:hover {
   text-decoration: underline overline;
 }
-figure {border:1px solid;}
-#head {
-  background-image: url(../images/hf.png); overflow: hidden; height: 200px; box-shadow: 0px 10px 25px #000;
-}
-#head img {text-align:center; }
 
-#content {background: #fff; margin-top: 15px; margin-left:5px; margin-bottom:20px; padding: 5px; height: 400px; overflow:auto;}
-#content ul {margin:0px; padding-left:10px;}
-#content li {padding-bottom:5px;}
-#space {overflow:hidden;}
-#foot {
-  background-image: url(../images/fh.png); width:100%; padding:0px; margin:0; overflow: hidden; height: 50px; box-shadow: 0px -10px 25px #000;
-}
-#foot p {margin:10px; line-height:100%; color: #fff;
-}
 h1 {
-  font-family: 'Cinzel Decorative', cursive;
-  font-weight: 900;
-  line-height:200px;
+  font-family: Georgia, serif;
+  font-weight: normal;
   padding-top: 20px;
+  text-align: center;
 }
 
 h2 {
   padding-top: 20px;
   text-align: center;
 }
+
 p {
   overflow: hidden;
   padding: 10px 0;
+  text-align: center;
 }
 
-#hf {background-image: "../images/hf.png"; background-repeat: repeat-x; overflow:hidden;}
-
 .container {
-  background-color:  #7d0e00;
+  background-color: #fff;
   background-repeat: repeat-y;
   margin-bottom: 20px;
 }
 
 .container {
-  background: #7d0e00;
+  background: #fff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 995px) {
 	.container {
-		background:  #7d0e00;
+		background: #fff;
 	}
 }
 @media only screen and (max-width: 767px) {
 	.container {
-		background:  #7d0e00;
+		background: #fff;
 	}
 }
 
 @media only screen and (max-width: 479px) {
 	.container.demo {
-		background:  #7d0e00;
+		background: #fff;
 	}
 }
