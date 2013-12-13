@@ -1,0 +1,61 @@
+body {
+  background: #123;
+  color: #333;
+  font-size: 11px;
+  height: auto;
+  padding-bottom: 20px;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  float:left;
+  padding:5px;
+}
+
+a:hover {
+  text-decoration: underline overline;
+}
+li a {display: block;}
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2, h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.container {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+
+.container {
+  background: #fff;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	.container {
+		background: #fff;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.container {
+		background: #fff;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.container.demo {
+		background: #fff;
+	}
+}
