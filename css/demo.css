@@ -15,19 +15,22 @@ a {
 a:hover {
   text-decoration: underline overline;
 }
-li a {display: block;}
+tr a {display: block;}
 h1 {
   font-family: Georgia, serif;
-  font-weight: normal;
+  font-weight: bold;
   padding-top: 20px;
   text-align: center;
 }
 
-h2, h3 {
+h2, h3, h4{
   padding-top: 20px;
   text-align: center;
 }
-
+img .icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 p {
   overflow: hidden;
   padding: 10px 0;
@@ -42,6 +45,11 @@ p {
 .container {
   background: #fff;
 }
+
+nav ul{
+text-align:center;
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 995px) {
 	.container {
