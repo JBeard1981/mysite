@@ -1,10 +1,13 @@
 body {
-  background: #123;
-  color: #333;
+  background: #000;
+  color: #000;
   font-size: 11px;
   height: auto;
   padding-bottom: 20px;
 }
+
+/* div {background: #4d0e00;} */
+
 a {
   color: #000;
   text-decoration: none;
@@ -15,55 +18,58 @@ a {
 a:hover {
   text-decoration: underline overline;
 }
-tr a {display: block;}
+figure {border:1px solid;}
+#head {
+  background-image: url(../images/hf.png); background-color: #fff;  overflow: hidden; height: 200px; box-shadow: 0px 10px 25px #000;
+}
+#head img {text-align:center;}
+
+#content {background: #fff; margin-top: 15px; margin-left:5px; margin-bottom:20px; padding: 5px; height: 400px; overflow:auto;}
+#content ul {margin:0px; padding-left:10px;}
+#content li {padding-bottom:5px;}
+#foot p {margin:10px; line-height:100%; color: #fff;
+}
+#icon img a {display:block; text-align:center;}
+nav li {text-align:center;}
+
 h1 {
-  font-family: Georgia, serif;
-  font-weight: bold;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 900;
+  line-height:200px;
   padding-top: 20px;
-  text-align: center;
 }
 
-h2, h3, h4{
+h2 {
   padding-top: 20px;
   text-align: center;
 }
-img .icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
 p {
   overflow: hidden;
   padding: 10px 0;
 }
 
+#hf {background-image: "../images/hf.png"; background-repeat: repeat-x; overflow:hidden;}
+
 .container {
-  background-color: #fff;
+  background-color:  #000;
   background-repeat: repeat-y;
   margin-bottom: 20px;
 }
-
-.container {
-  background: #fff;
-}
-
-nav ul{
-text-align:center;
-}
-
+td a{font-weight:bold;}
 
 @media only screen and (min-width: 768px) and (max-width: 995px) {
 	.container {
-		background: #fff;
+		background:  #000;
 	}
 }
 @media only screen and (max-width: 767px) {
 	.container {
-		background: #fff;
+		background:  #000;
 	}
 }
 
 @media only screen and (max-width: 479px) {
 	.container.demo {
-		background: #fff;
+		background:  #000;
 	}
 }
