@@ -29,8 +29,11 @@ figure {border:1px solid;}
 #content li {padding-bottom:5px;}
 #foot p {margin:10px; line-height:100%; color: #fff;
 }
-#icon img a {display:block; text-align:center;}
+#icon img a {display:block;}
 nav li {text-align:center;}
+
+table {display:block;}
+td {width:200px; text-align:left;}
 
 h1 {
   font-family: 'Cinzel Decorative', cursive;
@@ -47,8 +50,14 @@ p {
   overflow: hidden;
   padding: 10px 0;
 }
+#form {outline:1px solid #000; width:550px; text-align: left;}
+input {width:100%; display:block;}
 
+#price tr {border-bottom:1px solid #000;}
+/* #price td {width:33%;} */
+#cost {text-align:right;}
 #hf {background-image: "../images/hf.png"; background-repeat: repeat-x; overflow:hidden;}
+
 
 .container {
   background-color:  #000;
