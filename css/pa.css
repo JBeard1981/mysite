@@ -1,0 +1,70 @@
+	body {
+	font:100%/1.5 "times new roman", arial, halvetica;
+	max-width: 960px;
+	margin: 0 auto;
+	background-color:#fff;
+	padding:0;
+	
+	}
+	div {
+		background-color:#333;
+		background-attachment:fixed;
+		background-image: url("../images/bg.png");
+		background-repeat: repeat-x;
+		width: 100%;
+		padding:10px;
+	}
+	
+	
+	ul a { 
+		text-decoration: underline;
+		color: #99eeee;
+	}
+	
+	ul a:active {
+		color:#F00;
+		background:#666;
+		text-decoration:underline overline;
+	}
+	
+	ul a:hover {
+		text-decoration: underline overline;
+		color:#FFF;
+	}
+	
+	ul a:visited {
+		text-decoration: underline overline;
+		color:#FFF;
+	}
+	
+	h1, h2, h3, h4{
+	font-family: 'Oleo Script Swash Caps', cursive;
+	color: #900;
+	font-weight: normal;
+	}
+
+	h1 {
+	min-width:100%;
+	text-align:center;
+	text-shadow: rgba(10, 10, 10, 0.5) 1px 2px 2px;
+	margin:0 auto;
+	line-height:30px;
+	}
+	
+	ol {
+		list-style:none;
+		color:white;	
+	}
+	
+	p {
+		color: white;
+	}
+	
+	/* ======================== Table ======================== */
+td {border:1px dotted;padding: 0.3em;}
+th {padding: 0.3em;font-family: 'Oleo Script Swash Caps', cursive; color: #900; font-weight:normal;}
+table {border-collapse: collapse; border:1px solid; width:100%; text-align:left; color:#fff;}
+/* ======================== Form ======================== */
+legend {padding: 0.3em;font-family: 'Oleo Script Swash Caps', cursive; color: #900;}
+form {color:#fff;}
+</style>
